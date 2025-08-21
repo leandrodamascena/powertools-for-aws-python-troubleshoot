@@ -309,6 +309,8 @@ Globals:
 
 ## Build Issues and Multi-Architecture Support
 
+Read more here: https://docs.powertools.aws.dev/lambda/python/latest/build_recipes/
+
 ### Architecture Compatibility Problems
 
 Lambda supports both x86_64 and arm64 architectures. Build issues often occur when dependencies are compiled for the wrong architecture.
