@@ -1,0 +1,132 @@
+{
+  "eventSource":"aws:kafka",
+  "eventSourceArn":"arn:aws:kafka:us-east-1:0123456789019:cluster/SalesCluster/abcd1234-abcd-cafe-abab-9876543210ab-4",
+  "bootstrapServers":"b-2.demo-cluster-1.a1bcde.c1.kafka.us-east-1.amazonaws.com:9092,b-1.demo-cluster-1.a1bcde.c1.kafka.us-east-1.amazonaws.com:9092",
+  "records":{
+     "mytopic-0":[
+        {
+           "topic":"mytopic",
+           "partition":0,
+           "offset":15,
+           "timestamp":1545084650987,
+           "timestampType":"CREATE_TIME",
+           "key":"cmVjb3JkS2V5",
+           "value":"eyJrZXkiOiJ2YWx1ZSJ9",
+           "headers":[
+              {
+                 "headerKey":[
+                    104,
+                    101,
+                    97,
+                    100,
+                    101,
+                    114,
+                    86,
+                    97,
+                    108,
+                    117,
+                    101
+                 ]
+              }
+           ],
+           "valueSchemaMetadata": {
+              "dataFormat": "AVRO",
+              "schemaId": "1234"
+           },
+           "keySchemaMetadata": {
+              "dataFormat": "AVRO",
+              "schemaId": "1234"
+           }
+        },
+        {
+           "topic":"mytopic",
+           "partition":0,
+           "offset":15,
+           "timestamp":1545084650987,
+           "timestampType":"CREATE_TIME",
+           "value":"eyJrZXkiOiJ2YWx1ZSJ9",
+           "headers":[
+              {
+                 "headerKey":[
+                    104,
+                    101,
+                    97,
+                    100,
+                    101,
+                    114,
+                    86,
+                    97,
+                    108,
+                    117,
+                    101
+                 ]
+              }
+           ],
+           "valueSchemaMetadata": {
+              "dataFormat": "AVRO",
+              "schemaId": "1234"
+           },
+           "keySchemaMetadata": {
+              "dataFormat": "AVRO",
+              "schemaId": "1234"
+           }
+        },
+        {
+           "topic":"mytopic",
+           "partition":0,
+           "offset":15,
+           "timestamp":1545084650987,
+           "timestampType":"CREATE_TIME",
+           "key": null,
+           "value":"eyJrZXkiOiJ2YWx1ZSJ9",
+           "headers":[
+              {
+                 "headerKey":[
+                    104,
+                    101,
+                    97,
+                    100,
+                    101,
+                    114,
+                    86,
+                    97,
+                    108,
+                    117,
+                    101
+                 ]
+              }
+           ],
+           "valueSchemaMetadata": {
+              "dataFormat": "AVRO",
+              "schemaId": "1234"
+           },
+           "keySchemaMetadata": {
+              "dataFormat": "AVRO",
+              "schemaId": "1234"
+           }
+        },
+        {
+           "topic":"mymessage-with-unsigned",
+           "partition":0,
+           "offset":15,
+           "timestamp":1545084650987,
+           "timestampType":"CREATE_TIME",
+           "key": null,
+           "value":"eyJrZXkiOiJ2YWx1ZSJ9",
+           "headers":[
+              {
+                 "headerKey":[104, 101, 108, 108, 111, 45, 119, 111, 114, 108, 100, 45, -61, -85]
+              }
+           ],
+           "valueSchemaMetadata": {
+              "dataFormat": "AVRO",
+              "schemaId": "1234"
+           },
+           "keySchemaMetadata": {
+              "dataFormat": "AVRO",
+              "schemaId": "1234"
+           }
+        }
+     ]
+  }
+}
