@@ -21,9 +21,9 @@ Before getting started, ensure you have the following installed:
 
 ## Modifying Dependencies
 
-### Adding AWS Lambda Powertools
+### Adding Powertools for AWS Lambda
 
-To add AWS Lambda Powertools to your project, update the `src/requirements.txt` file:
+To add Powertools for AWS Lambda to your project, update the `src/requirements.txt` file:
 
 ```txt
 requests
